@@ -132,9 +132,6 @@ header .parallax {
     overflow: hidden;
     position: relative;
     margin-bottom: 10%;
-    width: 100%;
-    max-width: -100px;
-    margin: 0 auto;
 }
 .works {
     padding-bottom: 3%;
