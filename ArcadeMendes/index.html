@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+   <script type="text/javascript">
+      (function(){
+      emailjs.init({
+        publicKey: "KzrjxkE0F2V1b3CzX",<!--Não é recomendado, mas é um projeto pessoal e não serve para em enviar spwyare.
+            Então não se empolgue e dá uma segurada aí. Se não quiser expor sua API e trazer segurança para o seu projeto entre em contato comigo -->
+      });
+   })();
+    </script>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>MendesCoder89</title>
+</head>
+<body data-spy="scroll" data-target="#nav">
+    <header class="clearfix" id="home">
+        <nav class="navbar navbar-default navbar-fixed-top" id="nav">
+            <div class="container">
+                <div class="navbar-header">
+                    <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse" id="navbar">
+                    <ul class="nav navbar-nav social-list">
+                        <li><a href="https://github.com/ErikaMendes89" target="_blank"><i class="fa fa-github fa-2x" title="GitHub" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/erika-mendes-3b798a64/" target="_blank"><i class="fa fa-linkedin fa-2x" title="LinkedIn" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/mendescoder89" target="_blank"><i class="fa fa-instagram fa-2x" title="instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="https://wa.me/message/032ECK2344N3L1" target="_blank"><i class="fa fa-whatsapp fa-2x" title="whatsapp" aria-hidden="true"></i></a></li>             
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li data-elem="parallax"><a href="#home">HOME</a></li>
+                        <li data-elem="about"><a href="#about">SOBRE MIM</a></li>
+                        <li data-elem="works"><a href="#works">PROJETOS</a></li>
+                        <li data-elem="skills"><a href="#skills">HABILIDADES</a></li>
+                        <li data-elem="contacts"><a href="#contacts">CONTATO</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="banner parallax scroll" id="parallax">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-offset-4 col-md-8 col-sm-12 banner-content">
+                        <h3>Erika Mendes</h3>
+                        <h3>Web Developer</h3>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+    </header>
+
+    <section class="about scroll" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="text-center about-content">
+                    <h2>Olá!</h2>
+                    <img src="/assets/erika-mendes.jpg" alt="about me" class="image-responsive img-circle img-thumbnail center-block">
+                    <p class="about-text">
+                        Meu nome é Erika e sou do Brasil. Sou desenvolvedora web full stack júnior, com experiência em HTML, CSS, JavaScript e Node.js. 
+                        Estou atualmente praticando o desenvolvimento de aplicações web utilizando frameworks como React e Angular. Tenho conhecimento em diversas tecnologias, incluindo Bootstrap, jQuery, PHP, e ferramentas como Git, Npm, Google e edição de imagem e video.
+                        Sou formada em Desenvolvimentos de Jogos tenho conhecimentos em C#, Python, SQL. Estou sempre em busca de aprender mais e aplicar minhas habilidades no campo da Tecnologia da Informação para ajudar a resolver desafios do mundo real. Posso te ajudar a ter uma presença online construindo seus websites para escolas, igrejas e muito mais!!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="works scroll" id="works">
+        <div class="container">
+            <h2 class="text-center">PORTFOLIO PROJETOS</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="https://github.com/ErikaMendes89/Projeto-cafeteria" target="_blank">
+                        <div class="block wow rotateInDownLeft" data-wow-duration="1s" data-wow-delay="0.15s">
+                            <div class="works-thumb" id="work-1"></div>
+                            <div class="works-caption">Site Cafeteria</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="https://github.com/ErikaMendes89/projeto-Website-hospedagem" target="_blank">
+                        <div class="block wow rotateInDownLeft" data-wow-duration=".8s" data-wow-delay="0.3s">
+                            <div class="works-thumb" id="work-2"></div>
+                            <div class="works-caption">Site de Hospedagem</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="https://github.com/ErikaMendes89/projeto-recomendacao-de-filmes" target="_blank">
+                        <div class="block wow rotateInDownLeft" data-wow-duration=".8s" data-wow-delay="0.45s">
+                            <div class="works-thumb" id="work-3"></div>
+                            <div class="works-caption">Recomendação de Filmes utilizando API e Flask</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="https://github.com/ErikaMendes89/jogo-simples-da-memoria" target="_blank">
+                        <div class="block wow rotateInDownRight" data-wow-duration=".8s" data-wow-delay="0.6s">
+                            <div class="works-thumb" id="work-4"></div>
+                            <div class="works-caption">Simples Jogo da memória com JavaScript</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="https://github.com/ErikaMendes89/Calculadora-app-react-native" target="_blank">
+                        <div class="block wow rotateInDownRight" data-wow-duration=".8s" data-wow-delay="0.75s">
+                            <div class="works-thumb" id="work-5"></div>
+                            <div class="works-caption">Calculadora Simples com Recat Native</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="block wow rotateInDownRight" data-wow-duration=".8s" data-wow-delay="0.9s">
+                        <div class="works-thumb" id="work-6"></div>
+                        <a href="https://github.com/ErikaMendes89/Projeto-Simples-site-de-imobiliaria">
+                            <div class="works-caption">Meu primeiro projeto de site</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills scroll" id="skills">
+        <div class="container">
+            <h2>Habilidades e proficiência</h2>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0s">
+                        <img src="/assets/Desenvolvimento-jogos-digitais.png" alt="Certificado desenvolvimento jogos digitais" class="img-responsive img-thumbnail center-block">
+                        <h3>Thumbnail label</h3>
+                        <p>.....</p>
+                    </div>
+                 </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                        <img src="/assets/certificado-infra.png" alt="certificado Infraestrutura de sistemas computacionais" class="img-responsive img-thumbnail center-block">
+                        <h3>Thumbnail label</h3>
+                        <p>.....</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.4s">
+                        <img src="/assets/nodeJs.png" alt="certificado Node JS" class="img-responsive img-thumbnail center-block">
+                        <h3>Thumbnail label</h3>
+                        <p>.....</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="skills-thumb wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
+                        <img src="/assets/Javascript certificado.png" alt="certificado Javascript" class="img-responsive img-thumbnail center-block">
+                        <h3>Thumbnail label</h3>
+                        <p>.....</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts scroll" id="contacts">
+        <div class="container">
+            <h2>Contate me</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <div class="contacts-info wow rotateInDownLeft" data-wow-duration="1s" data-wow-delay="0.15s">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <address>Brasil</address>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="contacts-info wow rotateInDownLeft" data-wow-duration="1s" data-wow-delay="0.15s">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <p>Dev.erikamendes@outlook.com</p>
+                    </div>
+                </div>
+               
+                </div>
+            </div>
+            <div class="row">
+              <form  id="contacts-form" class="form-horizontal"> 
+                        <div class="form-group" >
+                             <div class="col-md-offset-3 col-md-6">
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Your name" required>
+                             </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-3 col-md-6">
+                                <input type="email" id="email" name= "email" class="form-control" placeholder="Email address" required>
+                           </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-3 col-md-6">
+                                <textarea id="message" name= "message" class="form-control" placeholder="Message" required></textarea>
+                            </div>
+                        </div>
+               
+                         
+                                <button type="submit" class="btn btn-default center-block">Enviar mesagem</button>
+                                 
+   
+               </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <p>Erika Mendes</p>
+    </footer>
+   <script src="./js/form.js"></script>
+</body>
+
+</html> 
